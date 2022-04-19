@@ -1,0 +1,16 @@
+O`quvchi ismi: Haydarbek
+O`quvchi Familiyasi: Yo`ldashev
+O`quvchi Telefon raqami: +9895464
+======
+O`quvchi ismi: Ilhom
+O`quvchi Familiyasi: Iskandarov
+O`quvchi Telefon raqami: +9864654
+======
+O`quvchi ismi: Kamronbek
+O`quvchi Familiyasi: Shavkatov
+O`quvchi Telefon raqami: +964654
+======
+O`quvchi ismi: Sadullayev
+O`quvchi Familiyasi: Elyor
+O`quvchi Telefon raqami: +6546549
+======
