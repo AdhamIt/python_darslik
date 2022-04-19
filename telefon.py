@@ -16,3 +16,11 @@ samsung_s_22=Phone("Samsung S 22", "128Gb", "Black", 9000000, "20sm", "350gr")
 samsung_s_22.tarif()
 iphone5=Phone("Iphone", "16Gb", "Gold", 1000000, '10sm', '150gr')
 iphone5.tarif()
+print(redmi5.model)
+redmi5.model="Samsung A11"
+redmi5.cost=2000000
+print(redmi5.model)
+print(redmi5.cost)
+print(redmi5.weight)
+del redmi5.weight
+print(redmi5.weight)
