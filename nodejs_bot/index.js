@@ -8,29 +8,33 @@ filename = "BQACAgIAAxkBAAMbYmEy32-ktoPS7LeBbjJB4V25eaQAAkoWAALaTwlL4tqagu3ZctAk
 
 qushiqlar = ["ummon", "benom", "shoxrux", "sia"]
 
-// bot.on("message", function(msg){
-//     console.log(msg);
-//     bot.sendMessage(msg.from.id, `Sizning ismingiz ${msg.chat.first_name} sizning yozgan matningiz ${msg.text}`)
-//     bot.on("document", function(msg){
-//         console.log(msg);
-//         bot.sendMessage(msg.from.id, "Sizning filingiz saqlandi.")
-//     })
-//     bot.sendDocument(msg.from.id, filename)
-// })
-bot.onText(/\music/, msg =>{
-    chatId= msg.from.id;
-    setInterval(()=>{
-        bot.sendMessage(chatId, "Honandani kiriting")
-    },1500)
-    bot.sendMessage(chatId, "Ashulachi nomini kiriting: ")
-    bot.on("message", msg =>{
-        text = msg.text
-        if (qushiqlar.filter(ms => ms == text) !=0){
-            bot.sendMessage(chatId, text)
-        }
-        else{
-            bot.sendMessage(chatId, "Bunday musiqa mavjud emas")
-        }
+bot.on("message", function(msg){
+    console.log(msg);
+    bot.sendMessage(msg.from.id, `Sizning ismingiz ${msg.chat.first_name} sizning yozgan matningiz ${msg.text}`)
+    bot.on("document", function(msg){
+        console.log(msg);
+        bot.sendMessage(msg.from.id, "Sizning filingiz saqlandi.")
     })
-
+    bot.sendDocument(msg.from.id, filename)
+    if (msg.forward_from){
+        bot.deleteMessage(msg.chat.id, msg.forward_from.id)
+        bot.sendMessage(msg.from.id, "Reklama qo`shma")
+    }
 })
+// bot.onText(/\music/, msg =>{
+//     chatId= msg.from.id;
+//     setInterval(()=>{
+//         bot.sendMessage(chatId, "Honandani kiriting")
+//     },1500)
+//     bot.sendMessage(chatId, "Ashulachi nomini kiriting: ")
+//     bot.on("message", msg =>{
+//         text = msg.text
+//         if (qushiqlar.filter(ms => ms == text) !=0){
+//             bot.sendMessage(chatId, text)
+//         }
+//         else{
+//             bot.sendMessage(chatId, "Bunday musiqa mavjud emas")
+//         }
+//     })
+
+// })
