@@ -10,19 +10,19 @@ qushiqlar = ["ummon", "benom", "shoxrux", "sia"]
 
 bot.on("message", function(msg){
     console.log(msg);
-    bot.sendMessage(msg.from.id, `Sizning ismingiz ${msg.chat.first_name} sizning yozgan matningiz ${msg.text}`)
+    bot.sendMessage(msg.chat.id, `Sizning ismingiz ${msg.chat.first_name} sizning yozgan matningiz ${msg.text}`)
     bot.on("document", function(msg){
         console.log(msg);
-        bot.sendMessage(msg.from.id, "Sizning filingiz saqlandi.")
+        bot.sendMessage(msg.chat.id, "Sizning filingiz saqlandi.")
     })
-    bot.sendDocument(msg.from.id, filename)
-    if (msg.forward_from){
-        bot.deleteMessage(msg.chat.id, msg.forward_from.id)
-        bot.sendMessage(msg.from.id, "Reklama qo`shma")
-    }
+    // bot.sendDocument(msg.chat.id, filename)
+    // if (msg.forward_from){
+    //     bot.deleteMessage(msg.chat.id, msg.forward_from.id)
+    //     bot.sendMessage(msg.chat.id, "Reklama qo`shma")
+    // }
 })
 // bot.onText(/\music/, msg =>{
-//     chatId= msg.from.id;
+//     chatId= msg.chat.id;
 //     setInterval(()=>{
 //         bot.sendMessage(chatId, "Honandani kiriting")
 //     },1500)
