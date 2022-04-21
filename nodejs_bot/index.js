@@ -19,6 +19,9 @@ qushiqlar = ["ummon", "benom", "shoxrux", "sia"]
 // })
 bot.onText(/\music/, msg =>{
     chatId= msg.from.id;
+    setInterval(()=>{
+        bot.sendMessage(chatId, "Honandani kiriting")
+    },1500)
     bot.sendMessage(chatId, "Ashulachi nomini kiriting: ")
     bot.on("message", msg =>{
         text = msg.text

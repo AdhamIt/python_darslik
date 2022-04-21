@@ -26,3 +26,7 @@ O`quvchi ismi: Mukam
 O`quvchi Familiyasi: Xo`djanyazov
 O`quvchi Telefon raqami: +96465463546
 ======
+O`quvchi ismi: Shoxrux
+O`quvchi Familiyasi: Komiljonov
+O`quvchi Telefon raqami: +99893413546
+======
