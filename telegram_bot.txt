@@ -1,0 +1,12 @@
+1. Python ni o`rnatish kerak
+2. pip install python-telegram-bot
+3. bot uchun bir file ochish
+
+
+
+
+
+
+1. Node js ni o`rnatib olish kerak
+2. npm install node-telegram-bot-api
+3. bot uchun bir file ochishimiz kerak
