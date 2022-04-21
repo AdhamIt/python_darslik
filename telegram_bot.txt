@@ -1,6 +1,7 @@
 1. Python ni o`rnatish kerak
 2. pip install python-telegram-bot
 3. bot uchun bir file ochish
+4. 
 
 
 
