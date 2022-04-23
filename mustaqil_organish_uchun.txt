@@ -1,0 +1,8 @@
+Malumotlar bazasi.
+SQL -> S QUERY LANGUAGE.
+Packetlarni ustanovka qilishni o`rganishlaringiz kerak.
+Obektlar bilan ishlashni o`rganish.
+cmd bilan ishlashni o`rganishlaringiz kk
+pipenv -> muhit
+middleware
+staticfiles

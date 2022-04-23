@@ -1,0 +1,10 @@
+1. pip install django
+2. django-admin startproject <proekt nomi>
+3. proektni ishlatish uchun eng avvalo papka ga kirasizlar cd orqali
+python manage.py runserver
+python manage.py runserver 3000
+
+4. python manage.py makemigrations
+5. python manage.py migrate
+app yaratish
+6. python manage.py startapp <app nomi>
