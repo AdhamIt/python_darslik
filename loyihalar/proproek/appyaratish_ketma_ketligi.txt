@@ -1,0 +1,4 @@
+1. py manage.py startapp appNomi
+2. settings py shu yerda appNomini elon qilib qo`yasizar
+3. models py ga appning modelini yaratasizlar
+4. admin py ga modelni elon qilib qo`yasizlar

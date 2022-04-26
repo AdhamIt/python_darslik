@@ -1,0 +1,17 @@
+Kamandalar :
+1. python managa.py runserver  
+2. python manage.py runserver 5000
+
+
+Makemigration
+3. python manage.py makemigrations 
+
+Migrate
+4. python manage.py migrate
+
+App 
+5. python manage.py startapp appNomi
+
+Admin yaratish
+
+6. python manage.py createsuperuser 
