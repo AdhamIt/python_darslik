@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import PostView
+from .views import PostView, newPageView
 urlpatterns = [
-    path('', PostView.as_view(), name= 'news'),
+    path('news/', PostView.as_view(template_name='index.html'), name= 'news'),
+    path('yangilik/', newPageView, name='yangilik')
 ]

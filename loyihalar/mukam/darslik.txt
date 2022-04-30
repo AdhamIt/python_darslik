@@ -1,0 +1,4 @@
+1. applarni yaratib olinadi
+2. settings py da applarni elon qilinadi
+3. app modellari tuzib chiqiladi
+4. admin panelga modellar tanishtirilib chiqiladi.
