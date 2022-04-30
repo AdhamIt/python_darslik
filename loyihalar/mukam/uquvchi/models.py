@@ -9,4 +9,4 @@ class Uquvchi(models.Model):
     sinfi=models.IntegerField()
 
     def __str__(self) -> str:
-        return self.nomi
+        return self.ism
